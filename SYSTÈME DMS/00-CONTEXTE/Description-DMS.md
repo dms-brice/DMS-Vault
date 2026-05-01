@@ -10,8 +10,7 @@
 
 **Décors des Mers du Sud** : éditeur de décors panoramiques peints à la main, numérisés puis imprimés sur papier peint et toile canvas.
 
-Univers : exploration, botanique, gravures XIXe. Tradition Zuber + indiennage alsacien.
-
+**Inspirations :** tropiques, voyage, botanique, tradition des panoramiques historiques
 ---
 
 ## Description stratégique
