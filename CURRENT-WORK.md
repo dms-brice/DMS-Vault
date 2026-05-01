@@ -1,43 +1,110 @@
 # CURRENT-WORK — Travail en cours
 
-**Dernière mise à jour** : Mai 2026
+**Dernière mise à jour** : Mai 1, 2026 (13:45)
+**Session** : Setup Design System + Description DMS
 
-## Semaine actuelle
+---
 
-### En cours
-
-- [ ] Créer repo GitHub séparé `dms-brice/DMS-Design-System` (assets visuels)
-- [ ] Documenter design system dans Claude Design (couleurs, typo, logos, composants)
-- [ ] Exporter assets depuis Claude Design → GitHub Design-System
+## ✅ Complété cette session
 
 ### Fichiers créés
 
-- `SYSTÈME DMS/02-OUTILS/Design-System/` (structure complète)
-  - INDEX.md (overview + lien GitHub)
-  - Logos.md
-  - Couleurs.md
-  - Typographie.md
-  - Composants.md
-  - Guidelines.md
+1. **CURRENT-WORK.md** (ce fichier)
+   - Source unique pour tracker le travail entre sessions
+   - Permet continuité sans re-contextualisé
 
-### Décisions prises cette semaine
+2. **Description-DMS.md** (`00-CONTEXTE/Description-DMS.md`)
+   - Source de vérité unique pour description officielle DMS
+   - Utilisé partout (design system, landing pages, prospection)
+   - **Modifiable directement dans Obsidian**
 
-- **Séparation repos** : Design System assets → repo GitHub distinct
-- **Vault DMS** : Référence doc + liens vers repo Design-System
-- **Structure** : 02-OUTILS/Design-System/ comme point central de documentation
+3. **Design-System structure** (`02-OUTILS/Design-System/`)
+   - INDEX.md (overview + lien GitHub)
+   - Logos.md
+   - Couleurs.md
+   - Typographie.md
+   - Composants.md
+   - Guidelines.md
+
+### Décisions prises
+
+- **Séparation repos** : Assets visuels → repo GitHub séparé `dms-brice/DMS-Design-System`
+- **Vault DMS** : Référence doc + liens vers assets externes
+- **Single source of truth** : Description-DMS.md centralisé
+- **Workflow établi** : Modifier dans Obsidian → git push synchronise tout
+
+### Synchronisation GitHub
+
+✅ Tous les fichiers commités et pushés sur `dms-brice/DMS-Vault`
 
 ---
 
-## Backlog immédiat
+## 🔄 En cours — Priorité immédiate
 
-Priorité = dans les 7 jours :
-
-1. [ ] Élément 1
-2. [ ] Élément 2
-3. [ ] Élément 3
+- [ ] Créer repo GitHub `dms-brice/DMS-Design-System` (assets visuels)
+- [ ] Documenter design system dans Claude Design
+  - Couleurs (palette complète + codes HEX/RGB)
+  - Typographie (polices, poids, hiérarchie)
+  - Logos (versions, espacements)
+  - Composants (boutons, cartes, formulaires)
+- [ ] Exporter assets Claude Design → GitHub Design-System
 
 ---
 
-## Notes de session
+## 📋 Backlog — Prochaines étapes
 
-*Espace pour tracker les blocages, questions, ou insights entre sessions.*
+1. **Landing page Suisse** (prospection)
+   - Utiliser Description-DMS.md
+   - Respecter Design System créé
+   - Arguments Suisse (voir `04-Prospection & Vente/vendre/Suisse/`)
+
+2. **Outils prospection** (tableaux, formulaires)
+   - Créés dans Claude Design
+   - Intégrer Design System (couleurs, typo)
+
+3. **Documentation clients** (Réunion + Suisse)
+   - Adapter description par marché
+   - Référencer Design System
+
+---
+
+## 🔗 Fichiers clés à consulter
+
+**Source de vérité** :
+- `Description-DMS.md` ← description officielle (modifie ici)
+- `02-OUTILS/Design-System/INDEX.md` ← overview design system
+- `CURRENT-WORK.md` ← tracking (ce fichier)
+
+**Stratégie** :
+- `DMS — PROJET MAÎTRE.md` ← framework stratégique
+- `DMS — CONTEXTE COMPLET.md` ← contexte détaillé
+
+**Prospection** :
+- `04-Prospection & Vente/vendre/Suisse/INDEX.md`
+- `04-Prospection & Vente/vendre/Réunion/INDEX.md`
+
+---
+
+## 💡 Workflow établi
+
+**Modifier contenu** :
+1. Ouvrir fichier dans Obsidian
+2. Éditer le contenu
+3. Cmd+S (ou auto-save)
+
+**Synchroniser GitHub** :
+```bash
+cd ~/Documents/"DMS obsidian"
+git add .
+git commit -m "Update: [description]"
+git push
+```
+
+---
+
+## 📝 Notes pour continuité
+
+- **Obsidian** doit être ouvert sur `DMS obsidian` vault
+- **GitHub sync** = nécessaire après modifications (git push)
+- **Description-DMS.md** = point d'entrée pour toute description DMS
+- **Design-System** structure = extensible (ajouter fichiers au besoin)
