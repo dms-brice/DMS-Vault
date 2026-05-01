@@ -6,12 +6,29 @@
 
 **Architecture commerciale**. Segmentation marché, positionnement par segment, stratégies de prospection.
 
-## Contenu typique
+## Structure
+
+```
+vendre/
+├── Suisse/                    → Pipeline & stratégie Suisse
+│   ├── 15-ICP actionnables
+│   ├── 20 Cas réels
+│   ├── 30 Contact
+│   ├── 50 Suivi & Relance
+│   └── INDEX.md
+├── Réunion/                   → Pipeline & stratégie Réunion
+│   ├── 15-ICP actionnables
+│   ├── 20 Cas réels
+│   ├── 30 Contact
+│   ├── 50 Suivi & Relance
+│   └── INDEX.md
+└── INDEX.md (parent)
+```
+
+## Contenu par marché
 
 - **Suisse/** → Stratégie Suisse (priority, expansion, premium, sur-mesure)
 - **Réunion/** → Stratégie Réunion (cashflow, maintenance, fluide existant)
-- **segments/** → Définition personas / segments
-- **tactiques/** → Approches par marché / profil
 
 ## Convention
 
