@@ -6,19 +6,25 @@
 
 ### En cours
 
-- [ ] Tâche 1
-- [ ] Tâche 2
-- [ ] Tâche 3
+- [ ] Créer repo GitHub séparé `dms-brice/DMS-Design-System` (assets visuels)
+- [ ] Documenter design system dans Claude Design (couleurs, typo, logos, composants)
+- [ ] Exporter assets depuis Claude Design → GitHub Design-System
 
-### Fichiers/dossiers concernés
+### Fichiers créés
 
-- `[Chemin du dossier]`
-- `[Chemin du fichier]`
+- `SYSTÈME DMS/02-OUTILS/Design-System/` (structure complète)
+  - INDEX.md (overview + lien GitHub)
+  - Logos.md
+  - Couleurs.md
+  - Typographie.md
+  - Composants.md
+  - Guidelines.md
 
 ### Décisions prises cette semaine
 
-- **Décision 1** : Contexte et raison
-- **Décision 2** : Contexte et raison
+- **Séparation repos** : Design System assets → repo GitHub distinct
+- **Vault DMS** : Référence doc + liens vers repo Design-System
+- **Structure** : 02-OUTILS/Design-System/ comme point central de documentation
 
 ---
 
