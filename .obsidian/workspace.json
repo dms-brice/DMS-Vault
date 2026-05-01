@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "8d764dbf559813e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4687a2f9037ce662",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dd09d20e18a784a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧠 SYSTÈME DMS/00-CONTEXTE -> comprendre/🧠 SETUP — Vault DMS pour IA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🧠 SETUP — Vault DMS pour IA"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0247039d734765bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c190d74b59ca4d86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9193ec4047fb2db2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "a4e97e83aa9f7299",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          },
+          {
+            "id": "45a46ae16c2bbe02",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Cabinet médical",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "b07b33358a105d5d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "966015e3967d61b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdec5117640b7d17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f128783549496e3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🧠 SYSTÈME DMS/00-CONTEXTE/ICP — Agro Exotiques Suisse.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour ICP — Agro Exotiques Suisse"
+            }
+          },
+          {
+            "id": "178dc93a7ae459b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🧠 SYSTÈME DMS/00-CONTEXTE/ICP — Agro Exotiques Suisse.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de ICP — Agro Exotiques Suisse"
+            }
+          },
+          {
+            "id": "923585b9f3860a74",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "f1dbc54808c6aed0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "17b7e6a6166775e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🧠 SYSTÈME DMS/00-CONTEXTE/ICP — Agro Exotiques Suisse.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de ICP — Agro Exotiques Suisse"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false
+    }
+  },
+  "active": "3dd09d20e18a784a",
+  "lastOpenFiles": [
+    "🧠 SYSTÈME DMS/02-OUTILS -> produire/20-SCENARIOS ICP/SCÉNARIOS ICP — DMS.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/06 - Combinaisons.md",
+    "🧠 SYSTÈME DMS/02-OUTILS -> produire/20-SCENARIOS ICP",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/Salle de réunion.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/Accueil.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/Bureau.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/Cabinet médical.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/01 - Fonctions du mur.md",
+    "🧠 SYSTÈME DMS/02-OUTILS -> produire/10-PROMPTS/PROMPT — Générateur DMS.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/07 - Effets du décor.md",
+    "🧠 SYSTÈME DMS/00-CONTEXTE -> comprendre/ICP — Agro Exotiques Suisse.md",
+    "🧠 SYSTÈME DMS/00-CONTEXTE -> comprendre/ICP — Décideur Agro Suisse.md",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/15-ICP actionnables/ICP — Cabinet médical salle d’attente étroite.md",
+    "🧠 SYSTÈME DMS/00-CONTEXTE -> comprendre/🧠 SETUP — Vault DMS pour IA.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/05 - Typologies clients.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/02 - Usages des lieux.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/Sans titre/Sans titre.md",
+    "Sans titre",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/08 - Espaces.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/04 - Problèmes des lieux.md",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/03 - Natures du décor.md",
+    "Image de marque.md",
+    "Valoriser.md",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/15-ICP actionnables/ICP — Expatrié manque du pays.md",
+    "Sans titre 1.canvas",
+    "Sans titre 3.canvas",
+    "Sans titre 2.canvas",
+    "Sans titre.canvas",
+    "🧠 SYSTÈME DMS/02-OUTILS -> produire/10-PROMPTS/PROMPT — Restaurant immersion.md",
+    "🧠 SYSTÈME DMS/02-OUTILS -> produire/10-PROMPTS/PROMPT — Agro Exotiques Suisse.md",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/20 Cas réels/Restaurant thaï — Suisse romande (type).md",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/30 Contact/Restaurant africain Lausanne.md",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/20 Cas réels",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/15-ICP actionnables",
+    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir",
+    "01-MOTEUR DMS",
+    "Sans titre.base",
+    "Sans titre 1.base",
+    "Sans titre 2.base",
+    "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/50 Suivi & Relance"
+  ]
+}
