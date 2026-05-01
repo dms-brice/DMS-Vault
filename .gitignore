@@ -1,0 +1,24 @@
+# Obsidian local settings
+.obsidian/workspace.json
+.obsidian/plugins/recent-files-json.cson
+.obsidian/appearance.json
+.obsidian/cache
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS temporary files
+Thumbs.db
+.Thumbs.db
+
+# Node modules (if using any obsidian plugins with npm)
+node_modules/
