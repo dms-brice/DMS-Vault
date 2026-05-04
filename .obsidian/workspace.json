@@ -210,6 +210,12 @@
   },
   "active": "c24809786bd939c7",
   "lastOpenFiles": [
+    "scripts/git-daily-sync.sh",
+    "scripts",
+    "templates/Note-Projet.md",
+    "templates/Fiche-Client-Suisse.md",
+    "templates/Appel-Reunion.md",
+    "templates",
     "TAGS.md",
     " -.textClipping",
     "SYSTÈME DMS/00-CONTEXTE/Description-DMS.md",
@@ -235,11 +241,7 @@
     "🧠 SYSTÈME DMS/00-CONTEXTE -> comprendre/ICP — Agro Exotiques Suisse.md",
     "🧠 SYSTÈME DMS/00-CONTEXTE -> comprendre/ICP — Décideur Agro Suisse.md",
     "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/15-ICP actionnables/ICP — Cabinet médical salle d’attente étroite.md",
-    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/05 - Typologies clients.md",
-    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/02 - Usages des lieux.md",
-    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/Sans titre/Sans titre.md",
     "Sans titre",
-    "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir/08 - Espaces.md",
     "Sans titre 1.canvas",
     "Sans titre 3.canvas",
     "Sans titre 2.canvas",
@@ -247,8 +249,6 @@
     "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/20 Cas réels",
     "🧠 SYSTÈME DMS/04-Prospection & Vente -> vendre/15-ICP actionnables",
     "🧠 SYSTÈME DMS/01-MOTEUR DMS -> réfléchir",
-    "01-MOTEUR DMS",
-    "Sans titre.base",
-    "Sans titre 1.base"
+    "01-MOTEUR DMS"
   ]
 }

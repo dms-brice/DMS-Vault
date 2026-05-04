@@ -41,6 +41,18 @@
 
 ## 🔄 En cours — Priorité immédiate
 
+### Automatisation (May 1) ✅
+- [x] **Git push automatisé** → Cron job configuré (chaque jour à 18h)
+  - Script : `~/Documents/"DMS obsidian"/scripts/git-daily-sync.sh`
+  - Crontab : `0 18 * * * ~/Documents/"DMS obsidian"/scripts/git-daily-sync.sh`
+  - Logs : `.git-sync.log`
+
+- [x] **Obsidian Templates** → RÉSOLU
+  - Dossier créé à la racine : `templates/`
+  - Contient : Appel-Reunion.md, Fiche-Client-Suisse.md, Note-Projet.md
+  - Fonctionnel : Cmd+P → "Insérer modèle" ✓
+
+### Design System (Claude Design)
 - [ ] Créer repo GitHub `dms-brice/DMS-Design-System` (assets visuels)
 - [ ] Documenter design system dans Claude Design
   - Couleurs (palette complète + codes HEX/RGB)
