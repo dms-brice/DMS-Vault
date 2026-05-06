@@ -1,108 +1,58 @@
 # CURRENT-WORK — Travail en cours
 
-**Dernière mise à jour** : Mai 1, 2026 (13:45)
-**Session** : Setup Design System + Description DMS
+**Dernière mise à jour** : 6 mai 2026 (19:15)
+**Session** : Export Design System → GitHub + Obsidian
 
 ---
 
 ## ✅ Complété cette session
 
-### Fichiers créés
-
-1. **CURRENT-WORK.md** (ce fichier)
-   - Source unique pour tracker le travail entre sessions
-   - Permet continuité sans re-contextualisé
-
-2. **Description-DMS.md** (`00-CONTEXTE/Description-DMS.md`)
-   - Source de vérité unique pour description officielle DMS
-   - Utilisé partout (design system, landing pages, prospection)
-   - **Modifiable directement dans Obsidian**
-
-3. **Design-System structure** (`02-OUTILS/Design-System/`)
-   - INDEX.md (overview + lien GitHub)
-   - Logos.md
-   - Couleurs.md
-   - Typographie.md
-   - Composants.md
-   - Guidelines.md
-
-### Décisions prises
-
-- **Séparation repos** : Assets visuels → repo GitHub séparé `dms-brice/DMS-Design-System`
-- **Vault DMS** : Référence doc + liens vers assets externes
-- **Single source of truth** : Description-DMS.md centralisé
-- **Workflow établi** : Modifier dans Obsidian → git push synchronise tout
-
-### Synchronisation GitHub
-
-✅ Tous les fichiers commités et pushés sur `dms-brice/DMS-Vault`
+1. **CURRENT-WORK.md** — tracker de session opérationnel
+2. **Description-DMS.md** — source de vérité officielle DMS
+3. **Design System Cowork** — créé et opérationnel (à exporter)
+4. **TUTO-SYSTEME.md + .html** — tutoriel complet du système
+5. **Artifact "Rapport Daily DMS"** — rapport quotidien dans Cowork Pinned
 
 ---
 
 ## 🔄 En cours — Priorité immédiate
 
-### Automatisation (May 1) ✅
-- [x] **Git push automatisé** → Cron job configuré (chaque jour à 18h)
-  - Script : `~/Documents/"DMS obsidian"/scripts/git-daily-sync.sh`
-  - Crontab : `0 18 * * * ~/Documents/"DMS obsidian"/scripts/git-daily-sync.sh`
-  - Logs : `.git-sync.log`
+### Design System — Export & Documentation 🔄
+- [ ] **Exporter le Design System** depuis Cowork vers GitHub `dms-brice/DMS-Design-System`
+- [ ] **Documenter dans Obsidian** — mettre à jour `02-OUTILS/Design-System/` avec le contenu réel
+- [ ] **Pousser sur GitHub** — commit + push
 
-- [x] **Obsidian Templates** → RÉSOLU
-  - Dossier créé à la racine : `templates/`
-  - Contient : Appel-Reunion.md, Fiche-Client-Suisse.md, Note-Projet.md
-  - Fonctionnel : Cmd+P → "Insérer modèle" ✓
-
-### Design System (Claude Design)
-- [ ] Créer repo GitHub `dms-brice/DMS-Design-System` (assets visuels)
-- [ ] Documenter design system dans Claude Design
-  - Couleurs (palette complète + codes HEX/RGB)
-  - Typographie (polices, poids, hiérarchie)
-  - Logos (versions, espacements)
-  - Composants (boutons, cartes, formulaires)
-- [ ] Exporter assets Claude Design → GitHub Design-System
+### Landing page Suisse ⏸ BLOQUÉE
+- En attente du Design System finalisé
+- [ ] **Reprendre** une fois Design System exporté et documenté
 
 ---
 
 ## 📋 Backlog — Prochaines étapes
 
-1. **Landing page Suisse** (prospection)
-   - Utiliser Description-DMS.md
-   - Respecter Design System créé
-   - Arguments Suisse (voir `04-Prospection & Vente/vendre/Suisse/`)
-
-2. **Outils prospection** (tableaux, formulaires)
-   - Créés dans Claude Design
-   - Intégrer Design System (couleurs, typo)
-
-3. **Documentation clients** (Réunion + Suisse)
-   - Adapter description par marché
-   - Référencer Design System
+1. **Landing page Suisse** — reprendre après Design System (Description-DMS.md + Design System)
+2. **Outils prospection** — tableaux/formulaires Suisse
+3. **Documentation clients** — adapter description par marché (Réunion / Suisse)
 
 ---
 
-## 🔗 Fichiers clés à consulter
+## ⚠️ Blocages connus
 
-**Source de vérité** :
-- `Description-DMS.md` ← description officielle (modifie ici)
-- `02-OUTILS/Design-System/INDEX.md` ← overview design system
-- `CURRENT-WORK.md` ← tracking (ce fichier)
+- **Design System Claude Design** → inutilisable (tokens épuisés sur ce projet)
+- **Solution** : Design System recréé dans Cowork — c'est celui-ci qu'on exporte
 
-**Stratégie** :
-- `DMS — PROJET MAÎTRE.md` ← framework stratégique
-- `DMS — CONTEXTE COMPLET.md` ← contexte détaillé
+---
 
-**Prospection** :
-- `04-Prospection & Vente/vendre/Suisse/INDEX.md`
-- `04-Prospection & Vente/vendre/Réunion/INDEX.md`
+## 🔗 Fichiers clés
+
+- `Description-DMS.md` ← description officielle
+- `02-OUTILS/Design-System/INDEX.md` ← structure design system
+- `CURRENT-WORK.md` ← ce fichier
+- Repo GitHub : `dms-brice/DMS-Design-System`
 
 ---
 
 ## 💡 Workflow établi
-
-**Modifier contenu** :
-1. Ouvrir fichier dans Obsidian
-2. Éditer le contenu
-3. Cmd+S (ou auto-save)
 
 **Synchroniser GitHub** :
 ```bash
@@ -111,12 +61,3 @@ git add .
 git commit -m "Update: [description]"
 git push
 ```
-
----
-
-## 📝 Notes pour continuité
-
-- **Obsidian** doit être ouvert sur `DMS obsidian` vault
-- **GitHub sync** = nécessaire après modifications (git push)
-- **Description-DMS.md** = point d'entrée pour toute description DMS
-- **Design-System** structure = extensible (ajouter fichiers au besoin)

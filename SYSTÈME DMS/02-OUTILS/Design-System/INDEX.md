@@ -1,53 +1,55 @@
-# Design System — Charte graphique DMS
+# Design System DMS — INDEX
 
-**Parent** : `[[../INDEX]]` (02-OUTILS)
+> ⚠️ **VERSION PROVISOIRE** — Source : Cowork (6 mai 2026)
+> À remplacer par la version définitive Claude Design dès lundi.
 
-**Repo GitHub** : `https://github.com/dms-brice/DMS-Design-System` (assets visuels)
-
-## Objectif
-
-Centraliser et documenter l'identité visuelle DMS. Charte graphique, logos, couleurs, typographie, composants, guidelines.
-
-Source de vérité pour tous les outils de prospection, landing pages, documentation créés dans Claude Design.
-
-## Structure
-
-```
-Design-System/
-├── Logos.md              → Versions, formats, espacements
-├── Couleurs.md           → Palette DMS, codes (HEX, RGB), usage
-├── Typographie.md        → Polices, poids, tailles, hiérarchie
-├── Composants.md         → Éléments réutilisables, patterns
-├── Guidelines.md         → Règles d'utilisation, bonnes pratiques
-└── INDEX.md (parent)
-```
-
-## Contenu
-
-**Design System** = assets visuels + documentation des règles.
-
-- **Logos** → Marque DMS, variantes, contextes d'usage
-- **Couleurs** → Palette primaire, secondaire, neutre. Codes techniques.
-- **Typographie** → Hiérarchie, poids, spacing. Lisibilité, univers.
-- **Composants** → Boutons, cartes, formulaires, layouts. Patterns réutilisables.
-- **Guidelines** → Quand/comment utiliser, erreurs à éviter, cohérence.
-
-## Workflow
-
-1. **Création** (Claude Design) → Nouvelles ressources visuelles
-2. **Documentation** → Ajouter ici + push vers repo GitHub séparé
-3. **Référence** → Prospect vault, landing pages, outils prospection consultent ce design system
-4. **Versioning** → GitHub repo garde l'historique des assets
-
-## Assets stockés sur GitHub
-
-Logos, icônes, images, fichiers design, composants = `dms-brice/DMS-Design-System`
-
-Raison : Assets visuels nécessitent repo distinct + versioning cohérent.
+**Statut** : Provisoire — en attente version Claude Design
 
 ---
 
-**Liens** :
-- Parent : `[[../INDEX]]`
-- Repo GitHub (assets) : `https://github.com/dms-brice/DMS-Design-System`
-- Référencé par : Prospect vault, Claude Design (outils, landing pages)
+## Vue d'ensemble
+
+Référence unique pour toute production visuelle et éditoriale DMS.
+Garantit la cohérence entre marchés (Réunion / Suisse) et supports (digital, print, prospection).
+
+---
+
+## Fichiers
+
+| Fichier | Contenu |
+|---------|---------|
+| Couleurs.md | Palette HEX + usages par marché |
+| Typographie.md | Polices, hiérarchie, tone-of-voice |
+| Logos.md | Versions, clear space, usages |
+| Univers-Visuel.md | Style photo, références, patterns |
+| Composants.md | Grille, boutons, cards, formulaires |
+| Guidelines.md | Dos & don'ts, brand voice, checklist |
+
+---
+
+## Vocabulaire DMS
+
+| Terme | Définition |
+|-------|-----------|
+| Peintures panoramiques narratives | Terme officiel pour les décors DMS |
+| Zuber / indiennage | Source historique + légitimité |
+| Sur-mesure | Offre principale |
+| Standard | En création |
+| Signature | Ponctuelle |
+
+---
+
+## Marché
+
+| | Réunion | Suisse |
+|-|---------|--------|
+| Rôle | Cashflow — flux maintenu | Priorité, futur |
+| Ton | Proximité, chaleur | Sophistication, exclusivité |
+| Argument | Artisanat local | Art, investissement, unicité |
+
+---
+
+## Liens
+
+- GitHub : `dms-brice/DMS-Design-System`
+- Description officielle : Description-DMS.md
